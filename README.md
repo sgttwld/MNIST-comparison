@@ -10,4 +10,4 @@ Neural network with one convolutional layer of 32 5x5 filters and one average po
 
 * [Advanced Convolutional Neural Network](https://github.com/sgttwld/MNIST-comparison/blob/master/4_mnist_CNN2.py): Neural network with three convolutional layers (32, 64, and 64 filters of size 3x3), two max pooling layers in-between, and one dense layer with 64 units before the output layer (`93,322` parameters, **~99.1% test accuracy**).
 
-For a comprehensive list of results on MNIST classification see [The MNIST Database of handwritten digits](http://yann.lecun.com/exdb/mnist/) by Yann LeCun.
+For a comprehensive list of results on MNIST classification see [The MNIST database of handwritten digits](http://yann.lecun.com/exdb/mnist/) by Yann LeCun.

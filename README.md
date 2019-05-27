@@ -1,5 +1,5 @@
 # MNIST-comparison
-Comparison of different toy network implementations for MNIST classification (28x28 grayscale images)
+Comparison of different toy network implementations for MNIST classification with TensorFlow (28x28 grayscale images)
 
 * [Linear Classifier](https://github.com/sgttwld/MNIST-comparison/blob/master/1_mnist_LIN.py): Linearly map the `28*28`-simensional input directly with to the 10 outputs (`7,850` parameters, **~92.3% test accuracy**).
 

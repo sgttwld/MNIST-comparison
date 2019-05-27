@@ -1,6 +1,5 @@
 """
-Simple neural network classifier for MNIST classification 
-(FlatInput(28*28)-->Dense(200)-->Output(10), ~2.0% error)
+Simple neural network classifier for MNIST classification (~2.2% test error)
 Author: Sebastian Gottwald
 Project: https://github.com/sgttwld/classification
 """

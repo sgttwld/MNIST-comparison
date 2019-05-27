@@ -1,6 +1,6 @@
 """
-A high-level implementation of a convolutional neural network 
-for MNIST classification using tensorflow.keras.models (~0.8% error)
+A high-level implementation of an advanced convolutional neural network 
+for MNIST classification using tensorflow.keras.models (~0.9% test error)
 Author: Sebastian Gottwald
 Project: https://github.com/sgttwld/classification
 Date: 2019-05-25

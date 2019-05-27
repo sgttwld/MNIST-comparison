@@ -1,5 +1,5 @@
 """
-Linear classifier for MNIST classification (~7.7% error)
+Linear classifier for MNIST classification (~7.7% test error)
 Author: Sebastian Gottwald
 Project: https://github.com/sgttwld/classification
 """
@@ -36,9 +36,6 @@ dimOUT = 10			# number of output nodes
 ## weights and biases
 W = tf.get_variable('weights', (dimIN,dimOUT), tf.float64)
 b = tf.get_variable('dense_bias', (dimOUT), tf.float64, tf.zeros_initializer())
-
-# W = tf.Variable(np.random.normal(0,1,(dimIN,dimOUT)),dtype=tf.float64)
-# b = tf.Variable(np.random.normal(0,1,dimOUT),dtype=tf.float64)
 
 ## placeholders for data
 X = tf.placeholder(tf.float64,[None,dimIN_0,dimIN_0])

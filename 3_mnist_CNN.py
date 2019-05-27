@@ -1,6 +1,6 @@
 """
-A mid-level implementation of a convolutional neural network 
-for MNIST classification using tensorflow.keras.layers (~1.4% error)
+A mid-level implementation of a simple convolutional neural network 
+for MNIST classification using tensorflow.keras.layers (~1.4% test error)
 Author: Sebastian Gottwald
 Project: https://github.com/sgttwld/classification
 Date: 2019-05-25

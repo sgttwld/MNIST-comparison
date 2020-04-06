@@ -1,4 +1,7 @@
 # MNIST-comparison
+
+__Note:__ The implementations are using tensorflow 1, see [tensorflow-2-simple-examples](https://github.com/sgttwld/tensorflow-2-simple-examples) for tensorflow 2 examples.
+
 Comparison of different toy network implementations for MNIST classification with TensorFlow (28x28 grayscale images)
 
 * [Linear Classifier](https://github.com/sgttwld/MNIST-comparison/blob/master/1_mnist_LIN.py): Linearly map the `28*28`-simensional input directly with to the 10 outputs (`7,850` parameters, **~92.3% test accuracy**).
